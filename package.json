@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
-    "lint": "eslint --ext .js,.ts,.jsx,.tsx --fix --quiet ./packages"
+    "lint": "eslint --ext .js,.ts,.jsx,.tsx --quiet ./packages/**/*",
+    "lint:fix": "eslint --ext .js,.ts,.jsx,.tsx --fix --quiet ./packages/**/*"
   },
   "keywords": [],
   "author": "",
