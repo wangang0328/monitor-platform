@@ -1,0 +1,10 @@
+{
+  "name": "@wa-dev/monitor-sdk-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

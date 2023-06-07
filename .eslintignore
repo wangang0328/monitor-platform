@@ -15,3 +15,5 @@ commitlint.config.js
 /packages/cli
 /packages/**/*.md
 /packages/**/test
+**/*.json
+**/*.yaml
