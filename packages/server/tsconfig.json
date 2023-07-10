@@ -1,17 +1,32 @@
 {
   "compilerOptions": {
-    "target": "esnext", // 目标语言版本
-    "module": "commonjs", // 指定生成代码的模板标准
+    "target": "esnext",
+    "module": "commonjs",
     "sourceMap": false,
     "outDir": "./dist",
-    "rootDir": "./src", // 指定输出目录, 默认是dist文件夹
+    "rootDir": "./src",
     "strict": false,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@src/*": [
+        "src/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@utils": [
+        "src/utils/index.ts"
+      ]
+    },
+    "resolveJsonModule": true
   },
-  // 需要编译的的文件和目录
   "include": [
     "src"
   ],
